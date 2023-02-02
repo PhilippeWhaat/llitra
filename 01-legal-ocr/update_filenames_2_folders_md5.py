@@ -12,8 +12,8 @@ import ntpath
 CUR_DIR = os.path.dirname(__file__)
 EXPEDIENTES_LLITRA_PATH = os.path.join(CUR_DIR, "correct_file.json")
 YACIMIENTO_LLITRA_PATH = os.path.join(CUR_DIR, "yacimientos_LLITRA.json")
-EXPEDIENTES_LLITRA_FILE = "/Users/philippeprince/Python_Learning_Curve/Python/EXPEDIENTES LLITRA"
-YACIMIENTO_LLITRA_FILE  = "/Users/philippeprince/Python_Learning_Curve/Python/YACIMIENTO_LLITRA"
+EXPEDIENTES_LLITRA_FILE = "PATH_TO_OLD_FOLDER/EXPEDIENTES LLITRA"
+YACIMIENTO_LLITRA_FILE  = "PATH_TO_NEW_FOLDER/YACIMIENTO_LLITRA"
 
 if os.path.exists(EXPEDIENTES_LLITRA_PATH):
     with open(EXPEDIENTES_LLITRA_PATH, "r") as f:

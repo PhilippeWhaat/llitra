@@ -3,8 +3,8 @@ import os
 import re
 
 spell = SpellChecker(language="es", distance=1)
-spell.word_frequency.load_words("/Users/philippeprince/Python_Learning_Curve/OCR/textos_ext_dicc/dict_created.txt")
-LISTE_PATH = "/Users/philippeprince/Python_Learning_Curve/OCR/DOCUMENTO 10.txt"
+spell.word_frequency.load_words("dict_created.txt") # not available (private info)
+LISTE_PATH = "SPECIFY THE FILE YOU WANT TO CHECK"
 CUR_PATH = os.path.dirname(__file__)
 
 completeDoc = open(LISTE_PATH, 'r', encoding='latin-1').read()
